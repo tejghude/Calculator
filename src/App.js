@@ -14,7 +14,7 @@ const App = () =>{
       setResult("");
   }
   const backspace = () => {
-      setResult(result.slice(0, -1)); // Or -1
+      setResult(result.slice(0, -1)); 
   }
   const calculate = () => {
       try {
