@@ -46,7 +46,7 @@ const App = () =>{
      <Col xs="6"><Button appearance="primary"  className="btn" style={{backgroundColor:'#ffffff',color:'#464646' }} name="7" onClick={handleClick} block>7</Button></Col>
      <Col xs="6"><Button appearance="primary"  className="btn" style={{ backgroundColor:'#ffffff',color:'#464646' }} name="8" onClick={handleClick} block>8</Button></Col>
      <Col xs="6"><Button appearance="primary"  className="btn" style={{ backgroundColor:'#ffffff',color:'#464646' }} name="9" onClick={handleClick} block>9</Button></Col>
-     <Col xs="6"><Button appearance="primary"  className="btn" name="*" onClick={handleClick} block>&times;</Button></Col>
+     <Col xs="6"><Button appearance="primary"  className="btn" name="x" onClick={handleClick} block>&times;</Button></Col>
      </Row>
      <Row>
      <Col xs="6"><Button appearance="primary"  className="btn" style={{ backgroundColor:'#ffffff',color:'#464646' }} name="4" onClick={handleClick} block>4</Button></Col>
